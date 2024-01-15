@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: background,
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 30),
+          padding: const EdgeInsets.symmetric(horizontal: 30,),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

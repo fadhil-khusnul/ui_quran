@@ -55,7 +55,7 @@ class HomeScreen extends StatelessWidget {
     return TabBar(
         unselectedLabelColor: const Color(0XFFB2C4D1).withOpacity(0.5),
         labelColor: Colors.white,
-        indicatorColor: primary,
+        indicatorColor: secondary,
         indicatorWeight: 3,
         indicatorSize: TabBarIndicatorSize.tab ,
         tabs: [
@@ -185,7 +185,7 @@ class HomeScreen extends StatelessWidget {
           {required String icon, required String label}) =>
       BottomNavigationBarItem(
         icon: SvgPicture.asset(icon, color: text),
-        activeIcon: SvgPicture.asset(icon, color: primary),
+        activeIcon: SvgPicture.asset(icon, color: secondary),
         label: label,
       );
 
